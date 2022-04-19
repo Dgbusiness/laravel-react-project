@@ -8,3 +8,4 @@ Initial commit for a laravel-react-project
 4. Run ```composer install```
 5. Create a MySQL/Postgres database
 6. Modify the ```.env``` file with the correct Database credentials
+7. Run ```php artisan migrate```
