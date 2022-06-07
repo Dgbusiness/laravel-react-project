@@ -22,3 +22,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 // Home
 Route::get('/', [HomeController::class, 'welcome']);
+
+//Projects
+Route::resource('projectResource', 'App\Http\Controllers\Api\ProjectController');
+
+//Tasks
+Route::resource('task', 'App\Http\Controllers\Api\TaskController');

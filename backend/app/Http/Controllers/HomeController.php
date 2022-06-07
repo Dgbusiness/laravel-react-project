@@ -7,7 +7,7 @@ class HomeController extends Controller
     public function welcome()
     {
         return response()->json([
-            'service' => 'Aeximius Test API',
+            'service' => 'Coalition Technologies Test API',
         ]);
     }
 }

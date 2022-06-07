@@ -29,3 +29,6 @@ yarn.lock
 
 frontend/.gitignore
 frontend/yarn.lock
+
+backend/.gitignore
+backend/vendor
